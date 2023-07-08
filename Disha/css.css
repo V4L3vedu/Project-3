@@ -1,0 +1,129 @@
+.margin{
+    margin-top: 160px;
+    margin-left: 20px;
+  }
+  .table img{
+    height: 100px;
+    width: 100px;
+    border-radius: 400px;
+  }
+  .search{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    right: 100px;
+    top:70px;
+    height: fit-content;
+    width: fit-content;
+    gap:5px;
+  }
+  .search button{
+    margin-top: 20px;
+  }
+  .btn-search{
+    height: 40px;
+    width: 100px;
+    align-items: center;
+  }
+  .add_record{
+    position: absolute;
+    right: 172px;
+    top: 10px;
+    width: 186px;
+    height: 58px;
+  }
+  .modal{
+    height: auto;
+    width: auto;
+    z-index: 1;
+    background-color: #f8f7f7;
+    margin-top: 42px;
+    margin-left: calc(30%);
+    border-radius: 28px;
+    position: absolute;
+  }
+  .cancel_btn{
+    font-size: 43px;
+    position: absolute;
+    right: 126px;
+    top: 8px;
+    font-weight: 900;
+  }
+  .spacing_at_end{
+    position: absolute;
+    right: 200px;
+  }
+  .adjust{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+  .none{
+    display: none;
+  }
+  .cancel_btn_modal{
+    margin-left: calc(85%);
+    font-weight: 500;
+    font-size: 54px;
+    cursor: pointer;
+  }
+  .pic-size{
+    height: 300px;
+    width: 300px;
+    border-radius: 700px;
+  }
+  .inp-size{
+    width: 250px;
+  }
+  .inp-size_large{
+    width: 3000px;
+  }
+  .input-group{
+    width: 210%;
+  }
+
+ @media only screen and (max-width:500px) {
+
+    /* For mobile phones: */
+    .pic-size{
+    height: 150px;
+    width: 150px;
+    border-radius: 700px;
+  }  
+  .search{
+    margin-left:20px;
+  }
+  .add_record{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    width: 186px;
+    height: 58px;
+  }
+  .search{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    right: 50px;
+    top:70px;
+    height: fit-content;
+    width: fit-content;
+    gap:5px;
+
+  }
+  .spacing_at_end{
+    position: absolute;
+    right: 90px;
+  }
+  .modal{
+    height: auto;
+    width: auto;
+    z-index: 1; 
+    background-color: #f8f7f7 !important;
+    margin-top: 42px;
+    margin-left: calc(5%);
+    border-radius: 28px;
+    position: absolute;
+  }
+ 
+ }
